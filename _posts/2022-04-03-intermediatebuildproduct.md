@@ -11,7 +11,8 @@ description: Blueprint nodes in Unreal Engine aren't always what they say they a
 ## Kismet Nodes
 
 Unreal Engines Blueprint Graph uses something known as Kismet 2 Nodes or K2 Nodes for short.
-They are the normal blueprint nodes that we all know and love from the engine.
+
+They are the normal blueprint nodes that we all know and love from the engine but for the sake of this blog post I'll be referring to them as "K2 Nodes".
 
 To explain to you why these nodes sometimes "lie" to you I'll have to explain two different types of K2 Nodes in Unreal.
 They're both technically just K2Nodes and there are different ways to make K2Nodes but I'll be covering the two most common types you'll run into and referring to them as "Intermediate nodes" and "Function nodes" in this blog post.
