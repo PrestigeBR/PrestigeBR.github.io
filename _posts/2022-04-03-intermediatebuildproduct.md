@@ -3,7 +3,7 @@ title: Blueprint Nodes are lying to you
 tags: [Unreal Engine]
 style: fill
 color: secondary
-description: Blueprint nodes in Unreal are lying to you, sometimes. Let's take a small peek under the hood. Click here to read more...
+description: Blueprint nodes in Unreal are lying to you, sometimes. Let's take a small peek under the hood to learn more...
 ---
 
 {% include elements/figure.html image="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png" caption="Unreal Engine Blueprint Graph" %}
