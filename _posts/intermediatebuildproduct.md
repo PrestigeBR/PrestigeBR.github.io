@@ -3,7 +3,6 @@ title: Blueprint Nodes Lie to You
 tags: [Unreal Engine]
 style: fill
 color: secondary
-comments: false
 description: Blueprint nodes in Unreal Engine aren't what they say they are. Learn more...
 ---
 
