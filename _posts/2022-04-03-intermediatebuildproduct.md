@@ -3,12 +3,15 @@ title: Blueprint Nodes Lie to You
 tags: [Unreal Engine]
 style: fill
 color: secondary
-comments: true
-description: Benefits of version control and version control systems.
+description: Blueprint nodes in Unreal Engine aren't what they say they are. Learn more...
 ---
 
-Source: [Nikhil Thota](https://medium.com/@nikhilthota/digital-minimalism-ac083064b4e4)
+{% include elements/figure.html image="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png" caption="Unreal Engine Blueprint Graph" %}
+
+## Title
+
+Text
+
+![HeaderImage](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png)
 
 Post
-
-{% include elements/figure.html image="https://cdn-images-1.medium.com/max/1000/0*nF_H2-8oTY7C0a54.png" caption="Android" %}
