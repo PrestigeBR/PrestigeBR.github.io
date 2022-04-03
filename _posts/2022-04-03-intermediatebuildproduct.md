@@ -15,7 +15,9 @@ Unreal Engines Blueprint Graph uses something known as Kismet 2 Nodes or K2 Node
 They are the normal blueprint nodes that we all know and love from the engine but for the sake of this blog post I'll be referring to them as "K2 Nodes".
 
 To explain to you why these nodes sometimes "lie" to you I'll have to explain two different types of K2 Nodes in Unreal.
-They're both technically just K2Nodes and there are different ways to make them but I'll be covering the two most common types you'll be running into and referring to them as "Intermediate nodes" and "Function nodes" in this blog post. I'll also cover how you can visualize your compiled blueprint in-engine to help with debugging at the end of this post.
+They're both technically just K2Nodes and there are different ways to make them but I'll be covering the two most common types you'll be running into and referring to them as "Intermediate nodes" and "Function nodes" in this blog post. I won't be going too into depth so anyone can follow along.
+
+I'll also cover how you can visualize your compiled blueprint graphs in-engine to help with debugging either your blueprints or your custom K2Nodes at the end of this post.
 
 ### Function nodes
 
@@ -24,8 +26,8 @@ Usually when I hear people explain what "Blueprint Nodes" are, it goes along the
 
 and well, they are but it gets a bit more complicated than that.
 
-A lot, if not most blueprint nodes are of the class `K2Node_CallFunction` which does what the name suggests, it calls a c++ function like you'd expect. 
-This is the type of node that any of your `UFUNCTION` macros will be creating when exposing functions to Blueprints if you've ever exposed c++ logic to the engine before. This is pretty straight forward and makes sense with the aforementioned statement however this brings me into the next category.
+A lot, if not most blueprint nodes are of the class `K2Node_CallFunction` which does what the name suggests, it calls a c++ function. 
+This is the node class any of your `UFUNCTION` macros will be creating when exposing functions to Blueprints if you've ever exposed c++ logic to the engine before. This is pretty straight forward and makes sense with the aforementioned statement however not all nodes work like this.
 
 ### Intermediate nodes
 
@@ -55,3 +57,5 @@ So, let's start by explaining what is going on here... -insert explanation-
 ### Visualize the Intermediate Build Product
 
 -show how to save and visualize the intermediate build product-
+
+Thanks to [Sebastian Krause](https://twitter.com/HatiEth) for showing me this useful trick.
