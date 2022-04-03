@@ -48,11 +48,14 @@ switch(expression) {
 ```
 
 but, the `K2Node_Switch` looks something like this:
+
 -put image or code-
 
-Now, I won't go into depth how this works or how to create K2Nodes here but if you're interessted in that check out this well written introduction from [MagForceSeven](https://www.gamedev.net/tutorials/programming/engines-and-middleware/improving-ue4-blueprint-usability-with-custom-nodes-r5694/).
+Now, I won't go into depth on how to create K2Nodes here but if you're interessted in that check out this well written introduction from [MagForceSeven](https://www.gamedev.net/tutorials/programming/engines-and-middleware/improving-ue4-blueprint-usability-with-custom-nodes-r5694/).
 
-So, let's start by explaining what is going on here... -insert explanation-
+So, let's start by explaining what is going on here...
+
+-insert explanation-
 
 ### Visualize the Intermediate Build Product
 
