@@ -3,7 +3,7 @@ title: Blueprint Nodes Lie to You
 tags: [Unreal Engine]
 style: fill
 color: secondary
-comments: true
+comments: false
 description: Benefits of version control and version control systems.
 ---
 
