@@ -9,6 +9,7 @@ description: Blueprint nodes in Unreal are lying to you, sometimes. Let's take a
 {% include elements/figure.html image="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png" caption="Unreal Engine Blueprint Graph" %}
 
 ## Introduction
+---
 
 Unreal Engines Blueprint Graph uses something known as Kismet 2 Nodes or K2 Nodes for short.
 
@@ -22,6 +23,7 @@ I won't be going too into depth so anyone can follow along.
 I'll also cover how you can visualize your compiled blueprint graphs in-engine to help with debugging either your blueprints or your custom K2Nodes at the end of this post.
 
 ## Function nodes
+---
 
 Usually when I hear people explain what "Blueprint Nodes" are, it goes along the lines of 
 >they're just blocks of c++ code in a visual format
@@ -32,6 +34,7 @@ One of the most common type of blueprint nodes you'll be working with are of the
 This is the node class any of your `UFUNCTION` macros will be generating when exposing functions to Blueprints if you've ever exposed c++ logic to the engine before. This is pretty straight forward and makes sense with the aforementioned statement however not all nodes work like this.
 
 ## Intermediate nodes
+---
 
 Let's use the Format Text node as an example here:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960628644420653086/unknown.png" caption="Uncompiled Blueprint FormatText" %}
@@ -61,6 +64,7 @@ Now, I won't go into depth on how to create K2Nodes in this post but if you're i
 Well, with this knowledge you can use it to optimize your blueprints or perhaps troubleshoot your own K2Nodes with this nifty trick I'll cover below and it should give you a pretty good baseline of how the most common type of K2Nodes you'll be making work.
 
 ## Visualize the Intermediate Build Product
+---
 
 You can show the compiled intermediate build product in your Blueprint Graph by enabling an option under:
 
