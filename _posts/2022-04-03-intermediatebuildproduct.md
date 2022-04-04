@@ -31,7 +31,7 @@ Usually when I hear people explain what "Blueprint Nodes" are, it goes along the
 and well, that is true, they are but it gets a bit more complicated than that.
 
 One of the most common type of blueprint nodes you'll be working with are of the class `K2Node_CallFunction` which does what the name suggests, it calls a c++ function. 
-This is the node class any of your `UFUNCTION` macros will be generating when exposing functions to Blueprints if you've ever exposed c++ logic to the engine before. This is pretty straight forward and makes sense with the aforementioned statement however not all nodes work like this.
+This is basically how any of your `UFUNCTION` macros work when exposing functions to Blueprints if you've ever exposed c++ logic to the engine before. This is pretty straight forward and makes sense with the aforementioned statement however not all nodes work like this.
 
 ## Intermediate nodes
 ---
