@@ -1,5 +1,5 @@
 ---
-title: Blueprint Nodes are lying to you
+title: Blueprint Nodes lie to you, sometimes.
 tags: [Unreal Engine]
 style: fill
 color: secondary
