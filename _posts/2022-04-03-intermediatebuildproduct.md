@@ -1,9 +1,9 @@
 ---
-title: Blueprint Nodes lie to you, sometimes.
+title: Intermediate Nodes, a slight peek into K2Nodes.
 tags: [Unreal Engine]
 style: fill
 color: secondary
-description: Blueprint nodes in Unreal are lying to you, sometimes. Let's take a small peek under the hood to learn more...
+description: K2Nodes can sound scary and complicated. Let's take a small peek under the hood to learn more...
 ---
 
 {% include elements/figure.html image="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png" caption="Unreal Engine Blueprint Graph" %}
