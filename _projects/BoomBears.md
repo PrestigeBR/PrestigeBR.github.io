@@ -33,7 +33,7 @@ Including but not limited to:
 
 {% include elements/figure.html image="https://cdn.cloudflare.steamstatic.com/steam/apps/1878970/ss_d0a10b826e7ba305b67d18754d2f29c8d65a66ce.600x338.jpg" caption="Map Maker Tool" %}
 
-{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960645200575860756/unknown.png" caption="Main Menu User Interface" %}
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960647585905922158/ss_8f04f1c2b1e1c6c718111b88826280e3f2d83ce3.600x338.png" caption="Main Menu User Interface" %}
 
 Want to learn more? Check out the:
 
