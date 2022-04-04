@@ -41,9 +41,13 @@ What does it actually do? Let's take a look at the compiled blueprint logic here
 
 Let's start by explaining what is going on here...
 
-The K2Node when compiled is executing logic that spawns "Intermediate" nodes, basically temporary nodes that are replacing your existing blueprint node with new ones that execute the actual logic.
+The K2Node when compiled is executing logic that spawns "Intermediate" nodes, these are basically temporary nodes that are replacing your existing blueprint node with new ones that execute the actual logic when the blueprint is compiled.
 
 This is the most common type of K2Node you'll find in plugins or make for yourself, these work pretty much exactly like a Blueprint Macro [(like explained here)](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/BestPractices/) does as well.
+
+> Macros take the nodes from the macro graph, and actually replace the macro node with a copy of all those nodes. Basically, when the Blueprint is compiled, the macro copies all the graph nodes, and pastes them in where the macro node is.
+
+This is what a K2Node that spawns Intermediate Nodes does as well.
 
 Here is another example from a ForEachMapLoop node I made for my [utility plugin](https://utils.hideout.no/):
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png" caption="Custom For Each Map Loop" %}
