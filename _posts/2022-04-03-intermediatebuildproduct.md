@@ -59,6 +59,7 @@ Well, with this knowledge you can use it to optimize your blueprints or perhaps 
 ### Visualize the Intermediate Build Product
 
 You can show the compiled intermediate build product in your Blueprint Graph by enabling an option under:
+
  File -> Developer -> Save Intermediate Build Product
  
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960633894254809188/unknown.png" caption="Setting Location" %}
