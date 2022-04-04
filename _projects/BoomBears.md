@@ -16,7 +16,8 @@ Boom Bears is a cute & fun Stream game for Twitch Chat! "Let your viewers fight 
 ## Responsibilities
 
 With this being a solo project, I was responsible for pretty much everything apart from making the music, coding the Twitch integration plugin and 3D assets.
-Including but not limited to:
+
+My responsibilities are including but not limited to:
  - Designing all game design aspects.
  - Programming the entire game.
  - Designing and implementing the UI/UX.
