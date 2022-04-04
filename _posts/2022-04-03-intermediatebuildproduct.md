@@ -37,7 +37,7 @@ Let's use the Format Text node as an example here:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960628644420653086/unknown.png" caption="Uncompiled Blueprint FormatText" %}
 
 What does it actually do? Let's take a look at the compiled blueprint logic here:
-{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960630332225380472/unknown.png" caption="Compiled Blueprint FormatTex" %}
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960630332225380472/unknown.png" caption="Compiled Blueprint FormatText" %}
 
 Let's start by explaining what is going on here...
 
