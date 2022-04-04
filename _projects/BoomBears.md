@@ -31,9 +31,11 @@ Including but not limited to:
 
 {% include elements/figure.html image="https://cdn.cloudflare.steamstatic.com/steam/apps/1878970/ss_1dc3b64c5404ed565495a455b24d8cab5e248ca4.600x338.jpg" caption="Word Guesser Gamemode" %}
 
-{% include elements/figure.html image="https://cdn.cloudflare.steamstatic.com/steam/apps/1878970/ss_d0a10b826e7ba305b67d18754d2f29c8d65a66ce.600x338.jpg?t=1647730975" caption="Map Maker Tool" %}
+{% include elements/figure.html image="https://cdn.cloudflare.steamstatic.com/steam/apps/1878970/ss_d0a10b826e7ba305b67d18754d2f29c8d65a66ce.600x338.jpg" caption="Map Maker Tool" %}
 
-https://cdn.cloudflare.steamstatic.com/steam/apps/1878970/ss_d0a10b826e7ba305b67d18754d2f29c8d65a66ce.600x338.jpg?t=1647730975
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960645200575860756/unknown.png" caption="Main Menu User Interface" %}
+
+Want to learn more? Check out the:
 
 <p class="text-center">
 {% include elements/button.html link="http://boombears.com" text="Steam Page" %}
