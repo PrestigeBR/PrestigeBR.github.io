@@ -1,5 +1,5 @@
-- title: Student, Harvard CS
-  from: 2014
+- title: Student, Media technology & communications, Tangen VGS
+  from: 2017
   to: 2018
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -7,8 +7,17 @@
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: Software Engineer, Google, UK
+- title: Student, Marketing, business & administration, Mandal VGS
   from: 2018
+  to: 2020
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- title: Solo Indie Game Developer, Hideout Games, NO
+  from: 2020
   to: present
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
