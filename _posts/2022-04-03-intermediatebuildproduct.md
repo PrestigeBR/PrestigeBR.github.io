@@ -52,7 +52,9 @@ This is the most common type of K2Node you'll find in plugins or make for yourse
 
 This is what a K2Node that spawns Intermediate Nodes does as well.
 
-Here is another example from a ForEachMapLoop node I made for my [utility plugin](https://utils.hideout.no/):
+If you want to take a closer look at how this `K2Node_FormatText` works you can find it in the source under: `Engine\Source\Editor\BlueprintGraph`.
+
+Here is another example from a ForEachMapLoop node I made for my [HGUtilities](https://utils.hideout.no/) plugin:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png" caption="Custom For Each Map Loop" %}
 
 There are more ways to make K2Nodes but these are the most common you'll need to understand when working with and making custom nodes for the engine.
