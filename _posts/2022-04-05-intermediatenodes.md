@@ -48,7 +48,7 @@ Let's start by explaining what is going on here...
 
 The K2Node when compiled is executing logic that spawns "Intermediate" nodes, these are basically temporary nodes that are replacing your existing blueprint node with new ones that execute the actual logic when the blueprint is compiled.
 
-This is the most common type of K2Node you'll find in plugins or make for yourself, these work pretty much exactly like a Blueprint Macro [(like explained here)](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/BestPractices/) does as well.
+This is the most common type of K2Node you'll find in plugins or make for yourself, these work pretty much exactly like a Blueprint Macro [(like explained here)](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/BestPractices/)
 
 > Macros take the nodes from the macro graph, and actually replace the macro node with a copy of all those nodes. Basically, when the Blueprint is compiled, the macro copies all the graph nodes, and pastes them in where the macro node is.
 
