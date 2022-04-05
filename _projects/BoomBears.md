@@ -9,9 +9,9 @@ description: Boom Bears is a cute & fun Stream game for Twitch Chat! "Let your v
 
 Boom Bears is a cute & fun Stream game for Twitch Chat! "Let your viewers fight it out on stream." with the intention of being a content creation tool for live streamers to play games with their viewers through chat-input on Twitch.tv.
 
-<div class="row"><iframe width="560" height="315" src="https://www.youtube.com/embed/j1AijrukVG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include elements/video.html id="j1AijrukVG4" %}
 
-<iframe src="https://store.steampowered.com/widget/1878970/" frameborder="0" width="646" height="190"></iframe></div>
+<div class="row"><iframe src="https://store.steampowered.com/widget/1878970/" frameborder="0" width="646" height="190"></iframe></div>
 
 ## Responsibilities
 
