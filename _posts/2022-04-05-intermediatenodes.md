@@ -59,7 +59,7 @@ If you want to take a closer look at how this `K2Node_FormatText` works you can 
 Here is another example of a ForEachMapLoop node(wip) I am making for my [HGUtilities](https://utils.hideout.no/) plugin:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png" caption="Custom For Each Map Loop" %}
 
-You can see here that in the un-compiled blueprint graph there is just the one node but in reality it is actually a lot more going on.
+You can see here that the un-compiled blueprint graph has one node in it but in reality there is actually a lot more going on.
 
 There are more ways to make K2Nodes but these are the most common you'll need to understand when working with or making custom nodes for the engine.
 
