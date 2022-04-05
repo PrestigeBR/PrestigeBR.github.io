@@ -36,10 +36,12 @@ This is basically how any of your `UFUNCTION` macros work when exposing function
 ## Intermediate nodes
 ---
 
-Let's use the Format Text node as an example here:
+Let's get into intermediate nodes and what they are. For this we'll use the Format Text node as an example shown here:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960628644420653086/unknown.png" caption="Uncompiled Blueprint FormatText" %}
 
-What does it actually do? Let's take a look at the compiled blueprint logic here:
+Now this looks pretty standard, this is what you would see on your end when writing blueprint logic but what you see isn't always the truth.
+Below you'll see an image of the compiled blueprint graph for the same image above, this looks a bit different. It is creating a new struct per input and feeding its values into the struct, turning the structs into an array and feeding that array into the function that converts it all to FText.
+
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960630332225380472/unknown.png" caption="Compiled Blueprint FormatText" %}
 
 Let's start by explaining what is going on here...
@@ -50,14 +52,16 @@ This is the most common type of K2Node you'll find in plugins or make for yourse
 
 > Macros take the nodes from the macro graph, and actually replace the macro node with a copy of all those nodes. Basically, when the Blueprint is compiled, the macro copies all the graph nodes, and pastes them in where the macro node is.
 
-This is what a K2Node that spawns Intermediate Nodes does as well.
+This is what a K2Node that spawns Intermediate Nodes does as well, just that instead of creating a macro in engine the coder has to actually code the logic that spawns the nodes, re-routes their pins etc.
 
 If you want to take a closer look at how this `K2Node_FormatText` works you can find it in the source under: `Engine\Source\Editor\BlueprintGraph`.
 
-Here is another example from a ForEachMapLoop node I made for my [HGUtilities](https://utils.hideout.no/) plugin:
+Here is another example of a ForEachMapLoop node(wip) I am making for my [HGUtilities](https://utils.hideout.no/) plugin:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png" caption="Custom For Each Map Loop" %}
 
-There are more ways to make K2Nodes but these are the most common you'll need to understand when working with and making custom nodes for the engine.
+You can see here that in the un-compiled blueprint graph there is just the one node but in reality it is actually a lot more going on.
+
+There are more ways to make K2Nodes but these are the most common you'll need to understand when working with or making custom nodes for the engine.
 
 Now, I won't go into depth on how to create K2Nodes in this post but if you're interessted in that check out this well written introduction from [MagForceSeven](https://www.gamedev.net/tutorials/programming/engines-and-middleware/improving-ue4-blueprint-usability-with-custom-nodes-r5694/).
 
