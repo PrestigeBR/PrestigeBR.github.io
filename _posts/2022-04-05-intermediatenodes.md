@@ -67,7 +67,7 @@ Now, I won't go into depth on how to create K2Nodes in this post but if you're i
 
 >How does this help me?
 
-Well, with this knowledge you can use it to optimize your blueprints or perhaps troubleshoot your own K2Nodes with this nifty trick I'll cover below and it should give you a pretty good baseline of how the most common type of K2Nodes you'll be making work.
+Well, with this knowledge you can use it to optimize your blueprints or perhaps troubleshoot your own K2Nodes with this nifty trick I'll cover below and it should give you a pretty good baseline of how the most common type of K2Nodes you'll be making work. Having a basic understanding of what is actually going on with your blueprint logic is also quite useful.
 
 ## Visualize the Intermediate Build Product
 ---
