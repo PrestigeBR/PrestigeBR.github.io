@@ -7,8 +7,6 @@ color: primary
 description: K2Nodes can sound scary and complicated but in their most basic form they're not really. Let's take a small peek under the hood to learn more...
 ---
 
-<meta property="og:image" content="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png" />
-
 {% include elements/figure.html image="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png" caption="Unreal Engine Blueprint Graph" %}
 
 ## Introduction
