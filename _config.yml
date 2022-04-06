@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : PrestigeBR
 description         : >-
-                      André Valand<br>Indie Game Developer & UI/UX Designer<br>"I love making stuff." :pizza:
+                      André Valand<br>Indie Game Developer & UI/UX Designer<br>"I just love making stuff." :pizza:
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : PrestigeBR/prestigebr.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : PrestigeBR/portfolYOU
