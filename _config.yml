@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : PrestigeBR
 description         : >-
-                      I just really enjoy making stuff. :cookie:
+                      André Valand<br>Indie Game Developer & UI/UX Designer<br>"I love making stuff." :pizza:
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : PrestigeBR/prestigebr.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : André Valand
-  image             : https://cdn.discordapp.com/attachments/751631261302521886/770346260334510190/image0.png
+  image             : https://cdn.discordapp.com/attachments/959186212046909551/961361769023033414/2022_4_Prestigebr1_Icon_transparent_BG.png
 # behance           : your_username
 # dribbble          : your_username
   email             : prestigebrdev@gmail.com
