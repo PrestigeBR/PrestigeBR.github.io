@@ -1,9 +1,9 @@
 ---
 title: Intermediate Nodes, a slight peek into K2Nodes.
+ogimg: https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png
 tags: [Unreal Engine]
 style: fill
 color: primary
-previewimage: https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/DoOnce_Network.png
 description: K2Nodes can sound scary and complicated but in their most basic form they're not really. Let's take a small peek under the hood to learn more...
 ---
 
