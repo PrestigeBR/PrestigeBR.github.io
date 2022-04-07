@@ -4,7 +4,7 @@ tags: [Unreal Engine]
 style: fill
 color: primary
 description: K2Nodes can sound scary and complicated but in their most basic form they're not really. Let's take a small peek under the hood to learn more...
-image: https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png
+image: https://cdn.discordapp.com/attachments/875515865540472842/961422639090503680/BlogPIMG.png
 ---
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png" caption="Unreal Engine Blueprint Graph" %}
