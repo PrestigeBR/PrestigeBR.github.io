@@ -82,4 +82,3 @@ Then compile your blueprint graph and you'll see the intermediate graphs under "
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960635209756323950/unknown.png" caption="Compiled Graphs" %}
 
 Thanks to [Sebastian Krause](https://twitter.com/HatiEth) for showing me this useful trick.
-
