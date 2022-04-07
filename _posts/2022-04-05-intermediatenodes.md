@@ -9,7 +9,7 @@ image: https://cdn.discordapp.com/attachments/875515865540472842/961422639090503
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/875515865540472842/961422639090503680/BlogPIMG.png" caption="Written by André Valand" %}
 
-<!-- Content Table -->
+<!-- Content Table, no work, fix later. -->
 
 {%- assign items = list_items | strip | newline_to_br | split: '<br />' -%}
 
