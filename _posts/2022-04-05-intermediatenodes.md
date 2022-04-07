@@ -7,6 +7,13 @@ image: https://cdn.discordapp.com/attachments/875515865540472842/961422639090503
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/875515865540472842/961422639090503680/BlogPIMG.png" caption="Written by André Valand" %}
 
+{% raw %}
+{% capture list_items %}
+Headers
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
+{% endraw %}
+
 ## Introduction
 ---
 
