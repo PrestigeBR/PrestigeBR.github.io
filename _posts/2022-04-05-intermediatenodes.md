@@ -5,16 +5,32 @@ description: K2Nodes can sound scary and complicated but in their most basic for
 image: https://cdn.discordapp.com/attachments/875515865540472842/961422639090503680/BlogPIMG.png
 ---
 
+<!-- Intro Image -->
+
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/875515865540472842/961422639090503680/BlogPIMG.png" caption="Written by André Valand" %}
 
-{% assign list_items = "" %}
-{% for element in site.elements %}
-    {% assign title = element.title | slice: 2, element.title.size %}
-    {%- capture list_items -%}
-        {{ list_items }}
-        {{ title }}
-    {%- endcapture -%}
-{% endfor %}
+<!-- Content Table -->
+
+{%- assign items = list_items | strip | newline_to_br | split: '<br />' -%}
+
+<div class="list-group my-3">
+
+  {%- if include.title -%}
+    <a class="list-group-item active disabled text-white">{{ include.title }}</a>
+  {%- endif -%}
+
+  {% for item in items %}
+    {%- if include.type == "toc" -%}
+      <a class="list-group-item list-group-item-action" href="#{{ item | slugify }}">{{ item }}</a>
+    {%- else -%}
+      {%- assign item_object = item | split: ',' -%}
+      <a class="list-group-item list-group-item-action" href="{{ item_object[1] }}">{{ item_object[0] }}</a>
+    {%- endif -%}
+  {% endfor %}
+
+</div>
+
+<!-- Blog Post Content -->
 
 ## Introduction
 ---
