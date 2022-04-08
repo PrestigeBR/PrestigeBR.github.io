@@ -7,6 +7,21 @@ description: A compilation of some of my work, ranging from game design and prot
 
 # Work Showcase
 
+## UI Engine Implementations
+
+{% capture carousel_images %}
+https://cdn.discordapp.com/attachments/959186212046909551/961985935824797736/HauntingsMainMenu.png
+https://cdn.discordapp.com/attachments/959186212046909551/961985936109993984/HauntingsSelectLevel.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
+## UI/UX Designs
+
+{% capture carousel_images %}
+https://cdn.discordapp.com/attachments/959186212046909551/961985859626889296/p_switchdesign.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
 ## Swords 'n Magic and Stuff Concepts
 
 Note: Unofficial concepts, PSD designs.
