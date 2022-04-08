@@ -19,8 +19,7 @@ https://cdn.discordapp.com/attachments/959186212046909551/961985859626889296/p_s
 
 Fully voice acted story driven stealth action 3D platformer.
 **2nd Place** in the Kindred Games Community Gamejam #7.
-*Avarage time to complete: 15-30 minutes.
-
+*Avarage time to complete: 15-30 minutes.*
 
 [Itch.io Game page](https://incanta.itch.io/niko-the-fox)
 
