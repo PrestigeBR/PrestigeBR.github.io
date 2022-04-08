@@ -1,7 +1,7 @@
 ---
 name: Showcase of Random Work
 tools: [Unreal Engine, Solo Indie, UI/UX]
-image: https://cdn.discordapp.com/attachments/875515865540472842/961992101036449933/RandomWork.png
+image: https://cdn.discordapp.com/attachments/959186212046909551/961992763430289508/RandomWork.png
 description: A compilation of some of my work, ranging from game design and prototypes to UI/UX design.
 ---
 
