@@ -7,18 +7,32 @@ description: A compilation of some of my work, ranging from game design and prot
 
 # Work Showcase
 
+## UI/UX Designs
+
+{% capture carousel_images %}
+https://cdn.discordapp.com/attachments/959186212046909551/961985859626889296/p_switchdesign.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
+## Niko the Fox: 7day Gamejam Game
+
+Fully voice acted story driven stealth action 3D platformer.
+**2nd Place** in the Kindred Games Community Gamejam #7.
+*Avarage time to complete: 15-30 minutes.*
+https://incanta.itch.io/niko-the-fox
+
+{% capture carousel_images %}
+https://cdn.discordapp.com/attachments/959186212046909551/961986626752507934/p_nikoss3.png
+https://cdn.discordapp.com/attachments/959186212046909551/961986629558501466/p_nikoss1.png
+https://cdn.discordapp.com/attachments/959186212046909551/961986630275706980/p_nikoss2.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
 ## UI Engine Implementations
 
 {% capture carousel_images %}
 https://cdn.discordapp.com/attachments/959186212046909551/961985935824797736/HauntingsMainMenu.png
 https://cdn.discordapp.com/attachments/959186212046909551/961985936109993984/HauntingsSelectLevel.png
-{% endcapture %}
-{% include elements/carousel.html %}
-
-## UI/UX Designs
-
-{% capture carousel_images %}
-https://cdn.discordapp.com/attachments/959186212046909551/961985859626889296/p_switchdesign.png
 {% endcapture %}
 {% include elements/carousel.html %}
 
