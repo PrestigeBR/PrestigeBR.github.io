@@ -18,7 +18,9 @@ https://cdn.discordapp.com/attachments/959186212046909551/961988217261916180/Log
 ## Niko the Fox: 7day Gamejam Game
 
 Fully voice acted story driven stealth action 3D platformer.
+
 **2nd Place** in the Kindred Games Community Gamejam #7.
+
 *Avarage time to complete: 15-30 minutes.*
 
 [Itch.io Game page](https://incanta.itch.io/niko-the-fox)
