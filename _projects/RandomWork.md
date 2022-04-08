@@ -23,8 +23,8 @@ Fully voice acted story driven stealth action 3D platformer.
 https://incanta.itch.io/niko-the-fox
 
 {% capture carousel_images %}
-https://cdn.discordapp.com/attachments/959186212046909551/961986626752507934/p_nikoss3.png
 https://cdn.discordapp.com/attachments/959186212046909551/961986629558501466/p_nikoss1.png
+https://cdn.discordapp.com/attachments/959186212046909551/961986626752507934/p_nikoss3.png
 https://cdn.discordapp.com/attachments/959186212046909551/961986630275706980/p_nikoss2.png
 {% endcapture %}
 {% include elements/carousel.html %}
