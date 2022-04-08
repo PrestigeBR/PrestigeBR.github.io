@@ -11,7 +11,7 @@ description: A compilation of some of my work, ranging from game design and prot
 
 {% capture carousel_images %}
 https://cdn.discordapp.com/attachments/959186212046909551/961985859626889296/p_switchdesign.png
-https://cdn.discordapp.com/attachments/959186212046909551/961985859626889296/p_switchdesign.png
+https://cdn.discordapp.com/attachments/959186212046909551/961988217261916180/Logo_W_1024x512.png
 {% endcapture %}
 {% include elements/carousel.html %}
 
