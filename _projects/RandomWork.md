@@ -56,7 +56,6 @@ Fully voice acted story driven stealth action 3D platformer.
   <ol class="carousel-indicators">
     <li data-target="#carouselEningeImplementation" data-slide-to="0" class="active"></li>
     <li data-target="#carouselEningeImplementation" data-slide-to="1"></li>
-    <li data-target="#carouselEningeImplementation" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -85,6 +84,8 @@ Note: Unofficial concepts, PSD designs.
     <li data-target="#carouselSNM" data-slide-to="0" class="active"></li>
     <li data-target="#carouselSNM" data-slide-to="1"></li>
     <li data-target="#carouselSNM" data-slide-to="2"></li>
+    <li data-target="#carouselSNM" data-slide-to="3"></li>
+    <li data-target="#carouselSNM" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
