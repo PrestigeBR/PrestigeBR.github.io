@@ -1,8 +1,8 @@
 ---
-title: What is version control?
+title: "Loading Screens, the Epic way."
 tags: [Unreal Engine]
-description: Benefits of version control and version control systems.
-image: https://bigtex.com/wp-content/uploads/2018/05/placeholder-1920x1080.png
+description: "Let's take a look at the CommonLoadingScreen plugin used in Epic's Lyra content example. Click to read more..."
+image: "https://bigtex.com/wp-content/uploads/2018/05/placeholder-1920x1080.png"
 ---
 
 <!-- Intro Image -->
