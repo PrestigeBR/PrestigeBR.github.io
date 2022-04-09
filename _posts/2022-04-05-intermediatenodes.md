@@ -9,27 +9,6 @@ image: https://cdn.discordapp.com/attachments/875515865540472842/961422639090503
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/875515865540472842/961422639090503680/BlogPIMG.png" caption="Written by André Valand" %}
 
-<!-- Content Table, no work, fix later. -->
-
-{%- assign items = list_items | strip | newline_to_br | split: '<br />' -%}
-
-<div class="list-group my-3">
-
-  {%- if include.title -%}
-    <a class="list-group-item active disabled text-white">{{ include.title }}</a>
-  {%- endif -%}
-
-  {% for item in items %}
-    {%- if include.type == "toc" -%}
-      <a class="list-group-item list-group-item-action" href="#{{ item | slugify }}">{{ item }}</a>
-    {%- else -%}
-      {%- assign item_object = item | split: ',' -%}
-      <a class="list-group-item list-group-item-action" href="{{ item_object[1] }}">{{ item_object[0] }}</a>
-    {%- endif -%}
-  {% endfor %}
-
-</div>
-
 <!-- Blog Post Content -->
 
 ## Introduction
