@@ -16,4 +16,4 @@ image: https://bigtex.com/wp-content/uploads/2018/05/placeholder-1920x1080.png
 
 The blog post will go here lol
 
-Link markdown: [Sebastian Krause](https://twitter.com/HatiEth) for showing me this useful trick.
+Link markdown: [google](https://google.com/)
