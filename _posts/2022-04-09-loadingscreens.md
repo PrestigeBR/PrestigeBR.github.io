@@ -1,4 +1,5 @@
 ---
+public: "false"
 title: "Loading Screens, the Epic way."
 tags: [Unreal Engine]
 description: "Let's take a look at the CommonLoadingScreen plugin used in Epic's Lyra content example. Click to read more..."
