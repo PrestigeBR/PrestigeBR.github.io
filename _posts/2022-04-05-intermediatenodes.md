@@ -1,4 +1,5 @@
 ---
+public: "true"
 title: Intermediate Nodes, a slight peek into K2Nodes.
 tags: [Unreal Engine]
 description: K2Nodes can sound scary and complicated but in their most basic form they're not really. Let's take a small peek under the hood to learn more...
