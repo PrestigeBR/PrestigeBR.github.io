@@ -134,7 +134,10 @@ In this case the "Loading Class" variable is instance editable and set per actor
 
 After this is all set up you're done and should end with a result like this:
 
-insert video
+<video width="1080" height="720" controls>
+  <source src="https://cdn.discordapp.com/attachments/959186212046909551/963543436496076921/2022-04-12_22-55-54.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ## Minigame loading screen
 ---
