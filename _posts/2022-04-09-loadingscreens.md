@@ -138,8 +138,10 @@ After this is all set up you're done and should end with a result like this:
 Your browser does not support the video tag.
 </video>
 
-## Bonus: Minigame loading screen
+## Bonus: Reading input during loading
 ---
+
+Let's make a short minigame to showcase processing input during loading.
 
 By default the CommonLoadingScreen plugin has a InputPreProcessor setup to eat input, if we are going to make a little minigame we do not want this.
 
@@ -149,4 +151,12 @@ With our inputs being passed through your next step (the fun part) is to setup a
 
 Here is a quick example of something I put together quickly to demonstrate:
 
--video-
+
+<video width="512" height="288" controls muted>
+  <source src="https://cdn.discordapp.com/attachments/959186212046909551/963560606718378004/2022-04-12_23-58-55.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Now a minigame in this situation isn't quite ideal and you'd have to do more with this to get it to a place where its shipable but the point of this example is to demonstrate that the plugin is quite easy to modify and shape to your liking.
+
+Go get crazy with it. 
