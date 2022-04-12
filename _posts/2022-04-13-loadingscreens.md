@@ -158,4 +158,4 @@ Your browser does not support the video tag.
 
 Now a minigame in this situation isn't quite ideal and you'd have to do more with this to get it to a place where its shipable but the point of this example is to demonstrate that the plugin is quite easy to modify and shape to your liking.
 
-Go get crazy with it. 
+Go get creative with it. 
