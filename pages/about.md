@@ -7,7 +7,7 @@ weight: 3
 
 # **About Me**
 
-![AboutMe](https://cdn.discordapp.com/attachments/959186212046909551/962420105139060756/AboutMe2.png "About Me")
+![AboutMe](https://cdn.discordapp.com/attachments/959186212046909551/963134007741124638/AboutMe2.png "About Me")
 
 ### Skills
 
