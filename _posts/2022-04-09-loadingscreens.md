@@ -44,6 +44,16 @@ You can just set this option to be your widget of choice and you now have a func
 ## Unique loading screens
 ---
 
-<insert>
+So, let's get a bit more funky with it and replicate the Lyra project setup for unique loading screens.
+
+Say if you want different maps or gamemodes etc. have different loading screen slots, or pretty much whatever you want.
+
+Start of by opening your IDE by choice, like Rider or Visual Studio.
+
+We'll need to create a new `UCLASS` inheriting from `UGameInstanceSubsystem` you can do so like this:
+
+```cpp
+
+```
 
 Link markdown: [google](https://google.com/)
