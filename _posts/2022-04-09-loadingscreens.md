@@ -151,7 +151,6 @@ With our inputs being passed through your next step (the fun part) is to setup a
 
 Here is a quick example of something I put together quickly to demonstrate:
 
-
 <video width="512" height="288" controls muted>
   <source src="https://cdn.discordapp.com/attachments/959186212046909551/963560606718378004/2022-04-12_23-58-55.mp4" type="video/mp4">
 Your browser does not support the video tag.
