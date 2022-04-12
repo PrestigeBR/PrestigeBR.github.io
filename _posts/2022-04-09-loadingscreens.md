@@ -57,7 +57,8 @@ We'll need to create a new `UCLASS` inheriting from `UGameInstanceSubsystem` wit
 You can do so like this:
 
 ```cpp
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLoadingScreenWidgetChangedDelegate, TSubclassOf<UUserWidget>, NewWidgetClass);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLoadingScreenWidgetChangedDelegate, 
+				TSubclassOf<UUserWidget>, NewWidgetClass);
 
 UCLASS()
 class COMMONLOADINGSAMPLE_API UCommonLoadingSubsystem : public UGameInstanceSubsystem
