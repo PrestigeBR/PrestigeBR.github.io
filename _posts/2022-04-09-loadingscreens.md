@@ -118,25 +118,25 @@ and this is it for the c++, not too bad. Go ahead and build your solution and we
 
 Let's start by creating our main loading screen widget, this will contain a Named Slot we can use to populate the unique loading screens with different content. This is what my implementation looks like:
 
-<image>
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/963539440129675355/unknown.png" caption="Main Loading Widget" %}
 
 I also made a default content widget that I keep in the Named Slot in-case we ever do a loading screen in a situation where that isn't set up.
 
 Now, inside of our main loading screen userwidget blueprint graph let's get the UCommonLoadingSubsystem we made earlier and get the content class. Let's then populate the Named Slot with that widget. (Note: You'll likely want to implement some checks here, I have not in this case) 
 
-<image2>
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/963539944184365106/unknown.png" caption="Blueprint Graph" %}
 
 With that in place the last thing that remains is to implement setting the userwidget class of the content we want to display before entering into a loading screen. In this example I made a BP_Portal that will open a map when a player walks over it. You can see my example setup below:
 
-<image3>
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/963540401627746364/unknown.png" caption="Blueprint Graph" %}
 
 In this case the "Loading Class" variable is instance editable and set per actor in the world outliner.
 
 After this is all set up you're done and should end with a result like this:
 
-<video>
+insert video
 
 ## Minigame loading screen
 ---
 
-<insert>
+insert blog
