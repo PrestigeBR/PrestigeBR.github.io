@@ -15,20 +15,24 @@ image: "https://cdn.discordapp.com/attachments/959186212046909551/96344921214458
 ## Introduction
 ---
 
-Unreal Engine 5 had its production ready release recently, it came together with the new Lyra sample project from Epic Games containing a lot of goodies. 
+Unreal Engine 5 had its production ready release recently, and it came together with the new Lyra sample project from Epic Games containing a lot of goodies. 
 
-In this blog post we'll be taking a look at the *CommonLoadingScreen* plugin in specific and I'll run you through how to set it up and use it in your own projects, trust me it is incredibly easy.
+In this blog post we'll be taking a look at the *CommonLoadingScreen* plugin in specific and I'll run you through how to set it up and use it in your own projects; trust me it is incredibly easy.
 
-We'll be going through plugin installation & basic setup and setting up unique loading screens based on context the same way Epic did with their Lyra content sample.
+Though I do assume that you have some basic knowledge of how to use an IDE (like Rider or Visual Studio) and read code.
+
+We'll be going through plugin installation, basic setup and setting up unique loading screens based on context the same way Epic did with their Lyra content sample.
 
 Source: [Lyra Project](https://www.unrealengine.com/marketplace/en-US/product/lyra)
 
 ## Installation
 ---
 
-The CommonLoadingScreen plugin is not natively included in UE5 and is a Lyra project native plugin, so this is where we'll have to extract it from. You can choose to just copy over the plugin source, this is what I'll be doing so we can modify the source code slightly later, or you can package it and install it to your engine version if you want. Though I should note that by default there are some issues you'll have to clear up manually if you attempt to package the plugin such as giving BlueprintCallable functions categories and possibly shortening folder or class names because it's likely to go over the 260 character limit.
+The CommonLoadingScreen plugin is not natively included in UE5 and is a Lyra project native plugin, so this is where we'll have to extract it from. You can choose to just copy over the plugin source to your project or you can package it and install it to your engine version if you want. In this tutorial, I’ll be copying the plugin to the project so we can modify the source code slightly. Though I should note that by default there are some issues you'll have to clear up manually if you attempt to package the plugin such as giving BlueprintCallable functions categories and possibly shortening folder or class names because it's likely to go over the 260 character limit.
 
 You can find the plugin in `LyraStarterProject/Plugins/CommonLoadingScreens`, proceed to copy this over into your own `<MyProjectName>/Plugins` folder and thats pretty much it for the setup outside the engine if you only want a basic loading screen.
+
+Please note that copying this plugin over will require that your project is a c++ project and *not* a blueprint only project. If you want some documentation on how to convert your project check out this guide from (Incanta Games)[https://wiki.incanta.games/en/plugins/install-as-project-plugin].
 
 ## Basic setup
 ---
@@ -46,9 +50,9 @@ You can just set this option to be your widget of choice and you now have a func
 
 So, let's get a bit more funky with it and replicate the Lyra project setup for unique loading screens.
 
-Say if you want different maps or gamemodes etc. have different loading screen slots, or pretty much whatever you want.
+Say if you want different maps, gamemodes, different loading screen slots, or pretty much whatever you want.
 
-Start of by opening your IDE by choice, like Rider or Visual Studio.
+Start off by opening your IDE by choice, like Rider or Visual Studio.
 
 We'll need to create a new `UCLASS` inheriting from `UGameInstanceSubsystem` with a delegate to broadcast when the widget class changed, a `UPROPERTY` for our delegate and another `UPROPERTY` for the current UserWidget class in your project.
 
@@ -92,7 +96,7 @@ and GetLoadingScreenContentWidget:
 	TSubclassOf<UUserWidget> GetLoadingScreenContentWidget() const;
 ```
 
-We'll then implement these functions to get and set out Widget Class, this class will be used to populate our Loading Screen widgets Named Slot component.
+We'll then implement these functions to get and set our Widget Class, which will be used to populate our Loading Screen widgets Named Slot component.
 
 This is what Epic Games' implementation looks like in Lyra and is how I also implemented it in this example:
 
@@ -113,9 +117,9 @@ TSubclassOf<UUserWidget> UCommonLoadingSubsystem::GetLoadingScreenContentWidget(
 }
 ```
 
-and this is it for the c++, not too bad. Go ahead and build your solution and we'll head back into the engine.
+and this is it for the c++, not too bad. Go ahead and build your solution and we'll head back into the editor.
 
-Let's start by creating our main loading screen widget, this will contain a Named Slot we can use to populate the unique loading screens with different content. This is what my implementation looks like:
+Let's start by creating our main loading screen widget; this will contain a Named Slot that we can use to populate the unique loading screens with different content. This is what my implementation looks like:
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/963539440129675355/unknown.png" caption="Main Loading Widget" %}
 
@@ -131,7 +135,7 @@ With that in place the last thing that remains is to implement setting the userw
 
 In this case the "Loading Class" variable is instance editable and set per actor in the world outliner.
 
-After this is all set up you're done and should end with a result like this:
+After this is all set up, you're done! You should end with a result like this:
 
 <video width="512" height="288" controls muted>
   <source src="https://cdn.discordapp.com/attachments/959186212046909551/963543436496076921/2022-04-12_22-55-54.mp4" type="video/mp4">
@@ -143,11 +147,11 @@ Your browser does not support the video tag.
 
 Let's make a short minigame to showcase processing input during loading.
 
-By default the CommonLoadingScreen plugin has a InputPreProcessor setup to eat input, if we are going to make a little minigame we do not want this.
+By default the CommonLoadingScreen plugin has a InputPreProcessor setup to eat input; if we are going to make a little minigame we do not want this.
 
-You'll either want to remove the `FLoadingScreenInputPreProcessor` or modify it to handle inputs the way you want it too, for the sake of this example though I just removed the call to StartBlockingInput in `LoadingScreenManager::ShowLoadingScreen()`, though I do not recommend going this in any project you intend to ship. This is simply to demonstrate the functionality. You can find this in the `LoadingScreenManager` class.
+You'll either want to remove the `FLoadingScreenInputPreProcessor` or modify it to handle inputs the way you want it too. For the sake of this example though I just removed the call to StartBlockingInput in `LoadingScreenManager::ShowLoadingScreen()`, though I do not recommend going this in any project you intend to ship. This is simply to demonstrate the functionality. You can find this in the `LoadingScreenManager` class.
 
-With our inputs being passed through your next step (the fun part) is to setup a minigame in UMG using inputs and then adding your minigame widget on load as we did above.
+With our inputs being passed through, your next step (the fun part) is to set up a minigame in UMG using inputs and then adding your minigame widget on load as we did above.
 
 Here is a quick example of something I put together quickly to demonstrate:
 
@@ -156,6 +160,6 @@ Here is a quick example of something I put together quickly to demonstrate:
 Your browser does not support the video tag.
 </video>
 
-Now a minigame in this situation isn't quite ideal and you'd have to do more with this to get it to a place where its shipable but the point of this example is to demonstrate that the plugin is quite easy to modify and shape to your liking.
+Now a minigame in this situation isn't quite ideal and you'd have to do more with this to get it to a place where it's shippable but the point of this example is to demonstrate that the plugin is quite easy to modify and shape to your liking.
 
 Go get creative with it. 
