@@ -1,5 +1,5 @@
 ---
-title: "Loading Screens, with the CommonLoadingScreen plugin."
+title: "Loading Screens, the Epic way. (Lyra)"
 tags: [Unreal Engine]
 description: "Let's take a look at the CommonLoadingScreen plugin used in Epic's Lyra content example. Click to read more..."
 image: "https://cdn.discordapp.com/attachments/959186212046909551/963449212144586772/loadingscreens.png"
