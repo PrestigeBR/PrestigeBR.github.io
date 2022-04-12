@@ -19,10 +19,7 @@ Unreal Engine 5 had its production ready release recently, it came together with
 
 In this blog post we'll be taking a look at the *CommonLoadingScreen* plugin in specific and I'll run you through how to set it up and use it in your own projects, trust me it is incredibly easy.
 
-We'll be going through:
->  Plugin installation & basic setup<br>
->  Setting up unique loading screens based on context<br>
->  Modifying the plugin to allow for input so you can make loading screen minigames
+We'll be going through plugin installation & basic setup and setting up unique loading screens based on context the same way Epic did with their Lyra content sample.
 
 Source: [Lyra Project](https://www.unrealengine.com/marketplace/en-US/product/lyra)
 
@@ -141,7 +138,15 @@ After this is all set up you're done and should end with a result like this:
 Your browser does not support the video tag.
 </video>
 
-## Minigame loading screen
+## Bonus: Minigame loading screen
 ---
 
-insert blog
+By default the CommonLoadingScreen plugin has a InputPreProcessor setup to eat input, if we are going to make a little minigame we do not want this.
+
+You'll either want to remove the `FLoadingScreenInputPreProcessor` or modify it to handle inputs the way you want it too, for the sake of this example though I just removed the call to StartBlockingInput in `LoadingScreenManager::ShowLoadingScreen()`, though I do not recommend going this in any project you intend to ship. This is simply to demonstrate the functionality. You can find this in the `LoadingScreenManager` class.
+
+With our inputs being passed through your next step (the fun part) is to setup a minigame in UMG using inputs and then adding your minigame widget on load as we did above.
+
+Here is a quick example of something I put together quickly to demonstrate:
+
+-video-
