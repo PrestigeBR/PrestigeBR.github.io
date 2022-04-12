@@ -59,7 +59,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLoadingScreenWidgetChangedDelegate,
 				TSubclassOf<UUserWidget>, NewWidgetClass);
 
 UCLASS()
-class COMMONLOADINGSAMPLE_API UCommonLoadingSubsystem : public UGameInstanceSubsystem
+class YOURPROJECT_API UCommonLoadingSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 	
