@@ -23,6 +23,8 @@ We'll be going through:
 >  Setting up unique loading screens based on context<br>
 >  Modifying the plugin to allow for input so you can make loading screen minigames
 
+Source: [Lyra Project](https://www.unrealengine.com/marketplace/en-US/product/lyra)
+
 ## Installation
 ---
 
@@ -50,10 +52,91 @@ Say if you want different maps or gamemodes etc. have different loading screen s
 
 Start of by opening your IDE by choice, like Rider or Visual Studio.
 
-We'll need to create a new `UCLASS` inheriting from `UGameInstanceSubsystem` you can do so like this:
+We'll need to create a new `UCLASS` inheriting from `UGameInstanceSubsystem` with a delegate to broadcast when the widget class changed, a `UPROPERTY` for our delegate and another `UPROPERTY` for the current UserWidget class in your project.
+
+You can do so like this:
 
 ```cpp
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLoadingScreenWidgetChangedDelegate, TSubclassOf<UUserWidget>, NewWidgetClass);
 
+UCLASS()
+class COMMONLOADINGSAMPLE_API UCommonLoadingSubsystem : public UGameInstanceSubsystem
+{
+	GENERATED_BODY()
+	
+public:
+	UCommonLoadingSubsystem();
+  
+private:
+	UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess))
+	FLoadingScreenWidgetChangedDelegate OnLoadingScreenWidgetChanged;
+
+	UPROPERTY()
+	TSubclassOf<UUserWidget> LoadingScreenWidgetClass;
+	
+};
 ```
 
-Link markdown: [google](https://google.com/)
+Then we'll have to declare two public functions:
+
+SetLoadingScreenContentWidget:
+
+```cpp
+	UFUNCTION(BlueprintCallable)
+	void SetLoadingScreenContentWidget(TSubclassOf<UUserWidget> NewWidgetClass);
+```
+
+and GetLoadingScreenContentWidget:
+
+```cpp
+	UFUNCTION(BlueprintPure)
+	TSubclassOf<UUserWidget> GetLoadingScreenContentWidget() const;
+```
+
+We'll then implement these functions to get and set out Widget Class, this class will be used to populate our Loading Screen widgets Named Slot component.
+
+This is what Epic Games' implementation looks like in Lyra and is how I also implemented it in this example:
+
+```cpp
+void UCommonLoadingSubsystem::SetLoadingScreenContentWidget(TSubclassOf<UUserWidget> NewWidgetClass)
+{
+	if (LoadingScreenWidgetClass != NewWidgetClass)
+	{
+		LoadingScreenWidgetClass = NewWidgetClass;
+
+		OnLoadingScreenWidgetChanged.Broadcast(LoadingScreenWidgetClass);
+	}
+}
+
+TSubclassOf<UUserWidget> UCommonLoadingSubsystem::GetLoadingScreenContentWidget() const
+{
+	return LoadingScreenWidgetClass;
+}
+```
+
+and this is it for the c++, not too bad. Go ahead and build your solution and we'll head back into the engine.
+
+Let's start by creating our main loading screen widget, this will contain a Named Slot we can use to populate the unique loading screens with different content. This is what my implementation looks like:
+
+<image>
+
+I also made a default content widget that I keep in the Named Slot in-case we ever do a loading screen in a situation where that isn't set up.
+
+Now, inside of our main loading screen userwidget blueprint graph let's get the UCommonLoadingSubsystem we made earlier and get the content class. Let's then populate the Named Slot with that widget. (Note: You'll likely want to implement some checks here, I have not in this case) 
+
+<image2>
+
+With that in place the last thing that remains is to implement setting the userwidget class of the content we want to display before entering into a loading screen. In this example I made a BP_Portal that will open a map when a player walks over it. You can see my example setup below:
+
+<image3>
+
+In this case the "Loading Class" variable is instance editable and set per actor in the world outliner.
+
+After this is all set up you're done and should end with a result like this:
+
+<video>
+
+## Minigame loading screen
+---
+
+<insert>
