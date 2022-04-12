@@ -32,7 +32,7 @@ The CommonLoadingScreen plugin is not natively included in UE5 and is a Lyra pro
 
 You can find the plugin in `LyraStarterProject/Plugins/CommonLoadingScreens`, proceed to copy this over into your own `<MyProjectName>/Plugins` folder and thats pretty much it for the setup outside the engine if you only want a basic loading screen.
 
-Please note that copying this plugin over will require that your project is a c++ project and *not* a blueprint only project. If you want some documentation on how to convert your project check out this guide from (Incanta Games)[https://wiki.incanta.games/en/plugins/install-as-project-plugin].
+Please note that copying this plugin over will require that your project is a c++ project and *not* a blueprint only project. If you want some documentation on how to convert your project check out this guide from [Incanta Games](https://wiki.incanta.games/en/plugins/install-as-project-plugin).
 
 ## Basic setup
 ---
