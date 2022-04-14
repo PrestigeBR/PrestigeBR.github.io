@@ -16,7 +16,7 @@ I felt there was a lot of Blueprint functionality that was missing in Unreal Eng
 
 **PrintAny**
 
-Print out any wildcard variable of types: ´Bool, Int, Byte, Float, Vector, Transform, Object, LinearColor, Name, Vector2D, Rotator and String´
+Print out any wildcard variable of types: `Bool, Int, Byte, Float, Vector, Transform, Object, LinearColor, Name, Vector2D, Rotator and String`
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/964281315052646451/unknown.png" caption="Blueprint Node" %}
 
