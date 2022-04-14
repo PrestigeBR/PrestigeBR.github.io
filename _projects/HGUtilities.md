@@ -30,4 +30,20 @@ Loop through any Blueprint Map variable and output per-index Index, Key & Value.
 
 Source: [Header](https://github.com/PrestigeBR/HGUtilNodes/blob/main/Source/CustomK2/Public/K2Node_ForEachMapLoop.h), [Implementation](https://github.com/PrestigeBR/HGUtilNodes/blob/main/Source/CustomK2/Private/K2Node_ForEachMapLoop.cpp)
 
+## Latent Actions
+
+Run latent actions in Blueprint without the need for c++, this is only intended for prototyping because it has more overhead.
+
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/964282559456485416/unknown.png" caption="Blueprint Nodes" %}
+
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/964282918556016680/unknown.png" caption="Example Latent Action" %}
+
+## Other nodes
+
+This plugin overall has 45+ nodes. For a full list of nodes view the [documentation](https://utils.hideout.no/).
+
+Some of the included nodes:
+
+{% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/964283755579723866/unknown.png" caption="Node Showcase" %}
+
 View the [repository](https://github.com/PrestigeBR/HGUtilNodes).
