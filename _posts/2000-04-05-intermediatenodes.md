@@ -60,7 +60,7 @@ This is what a K2Node that spawns Intermediate Nodes does as well, just that ins
 
 If you want to take a closer look at how this `K2Node_FormatText` works you can find it in the source under: `Engine\Source\Editor\BlueprintGraph`.
 
-Here is another example of a ForEachMapLoop node(wip) I am making for my [HGUtilities](https://utils.hideout.no/) plugin:
+Here is another example of a ForEachMapLoop node I am making for my [HGUtilities](https://prestiges.no/projects/hgutilities) plugin:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960632434792222720/unknown.png" caption="Custom For Each Map Loop" %}
 
 You can see here that the un-compiled blueprint graph has one node in it but in reality there is actually a lot more going on.
