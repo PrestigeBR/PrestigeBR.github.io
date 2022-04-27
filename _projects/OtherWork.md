@@ -105,6 +105,16 @@ Fully voice acted story driven stealth action 3D platformer.
 
 *Avarage time to complete: 15-30 minutes.*
 
+Responsibilities:
+
+ - Game Design
+ - Character Movement
+ - Gameplay Scripting
+ - 2D Art
+ - Sound Design & Music
+ - Voice Acting
+ - Level Design
+
 [Itch.io Game page](https://incanta.itch.io/niko-the-fox)
 
 <div id="carouselNiko" class="carousel slide" data-ride="carousel">
@@ -136,11 +146,11 @@ Fully voice acted story driven stealth action 3D platformer.
 
 ## Graphics Design
 
-<div id="carouselNiko" class="carousel slide" data-ride="carousel">
+<div id="carouselGFX" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselNiko" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselNiko" data-slide-to="1"></li>
-    <li data-target="#carouselNiko" data-slide-to="2"></li>
+    <li data-target="#carouselGFX" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselGFX" data-slide-to="1"></li>
+    <li data-target="#carouselGFX" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
