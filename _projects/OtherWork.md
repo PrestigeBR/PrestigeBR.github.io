@@ -8,22 +8,6 @@ description: A compilation of some of my work, ranging from personal games and c
 # Work Showcase
 ---
 
-## Slopecrashers
-
-Casual co-op arcade action racer inspired by the likes of Snowboard Kids. 
-
-Role: UI/UX Designer (Contractor)
-
-Responsibilities:
-
- - Design readable & easy to navigate User Interface designs
- - Design a good user experience for the graphical user interfaces
-
-{% capture carousel_images %}
-https://cdn.discordapp.com/attachments/933007320735154186/963142865654001704/unknown.png
-{% endcapture %}
-{% include elements/carousel.html %}
-
 ## The Hauntings
 
 In-development co-op online horror ghost investigation & excorcism game with over 15,000+ wishlists on Steam.
@@ -150,7 +134,6 @@ Responsibilities:
   <ol class="carousel-indicators">
     <li data-target="#carouselGFX" data-slide-to="0" class="active"></li>
     <li data-target="#carouselGFX" data-slide-to="1"></li>
-    <li data-target="#carouselGFX" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -160,15 +143,32 @@ Responsibilities:
       <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961988217261916180/Logo_W_1024x512.png" alt="Second slide">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselNiko" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselGFX" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselNiko" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselGFX" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+## Slopecrashers
+
+Casual co-op arcade action racer inspired by the likes of Snowboard Kids. 
+
+Role: UI/UX Designer (Contractor)
+
+Responsibilities:
+
+ - Design readable & easy to navigate User Interface designs
+ - Design a good user experience for the graphical user interfaces
+
+{% capture carousel_images %}
+https://cdn.discordapp.com/attachments/933007320735154186/963142865654001704/unknown.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
 
 ## Swords 'n Magic and Stuff Concepts
 
