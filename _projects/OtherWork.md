@@ -8,6 +8,53 @@ description: A compilation of some of my work, ranging from personal games and c
 # Work Showcase
 ---
 
+## Niko the Fox (7day Gamejam Game)
+
+Fully voice acted story driven stealth action 3D platformer.
+
+**2nd Place** in the Kindred Games Community Gamejam #7.
+
+*Avarage time to complete: 15-30 minutes.*
+
+Responsibilities:
+
+ - Game Design
+ - Character Movement
+ - Gameplay Scripting
+ - 2D Art
+ - Sound Design & Music
+ - Voice Acting
+ - Level Design
+
+[Itch.io Game page](https://incanta.itch.io/niko-the-fox)
+
+<div id="carouselNiko" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselNiko" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselNiko" data-slide-to="1"></li>
+    <li data-target="#carouselNiko" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986629558501466/p_nikoss1.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986626752507934/p_nikoss3.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986630275706980/p_nikoss2.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselNiko" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselNiko" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 ## The Hauntings
 
 In-development co-op online horror ghost investigation & excorcism game with over 15,000+ wishlists on Steam.
@@ -80,53 +127,6 @@ Role: Solo developer
 </div>
 
 -->
-
-## Niko the Fox (7day Gamejam Game)
-
-Fully voice acted story driven stealth action 3D platformer.
-
-**2nd Place** in the Kindred Games Community Gamejam #7.
-
-*Avarage time to complete: 15-30 minutes.*
-
-Responsibilities:
-
- - Game Design
- - Character Movement
- - Gameplay Scripting
- - 2D Art
- - Sound Design & Music
- - Voice Acting
- - Level Design
-
-[Itch.io Game page](https://incanta.itch.io/niko-the-fox)
-
-<div id="carouselNiko" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselNiko" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselNiko" data-slide-to="1"></li>
-    <li data-target="#carouselNiko" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986629558501466/p_nikoss1.png" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986626752507934/p_nikoss3.png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986630275706980/p_nikoss2.png" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselNiko" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselNiko" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 ## Graphics Design
 
