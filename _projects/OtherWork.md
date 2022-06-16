@@ -55,7 +55,7 @@ Responsibilities:
   </a>
 </div>
 
-## The Hauntings
+<!-- ## The Hauntings
 
 In-development co-op online horror ghost investigation & excorcism game with over 15,000+ wishlists on Steam.
 
@@ -91,7 +91,7 @@ Links: [Website](https://thehauntingsgame.com/), [Steam](https://store.steampowe
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div>-->
 
 <!--## Unreleased canned project
 
