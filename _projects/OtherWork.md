@@ -93,40 +93,60 @@ Links: [Website](https://thehauntingsgame.com/), [Steam](https://store.steampowe
   </a>
 </div>-->
 
-<!--## Unreleased canned project
+## Unreleased canned project titled "Insaniam"
 
 Casual single player horror investigation game.
 
 Role: Solo developer
 
-<div id="carouselNiko" class="carousel slide" data-ride="carousel">
+<div id="carouselInsaniam" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselNiko" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselNiko" data-slide-to="1"></li>
-    <li data-target="#carouselNiko" data-slide-to="2"></li>
+    <li data-target="#carouselInsaniam" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselInsaniam" data-slide-to="1"></li>
+    <li data-target="#carouselInsaniam" data-slide-to="2"></li>
+   <li data-target="#carouselInsaniam" data-slide-to="3"></li>
+   <li data-target="#carouselInsaniam" data-slide-to="4"></li>
+   <li data-target="#carouselInsaniam" data-slide-to="5"></li>
+   <li data-target="#carouselInsaniam" data-slide-to="6"></li>
+   <li data-target="#carouselInsaniam" data-slide-to="7"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986629558501466/p_nikoss1.png" alt="First slide">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578365320036362/1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986626752507934/p_nikoss3.png" alt="Second slide">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578362023325716/2.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/959186212046909551/961986630275706980/p_nikoss2.png" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578362715377704/3.png" alt="Third slide">
+    </div>
+   <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578363076092034/4.png" alt="Fourth slide">
+    </div>
+   <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578363600375949/5.png" alt="Fifth slide">
+    </div>
+   <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578364074336356/6.png" alt="Sixth slide">
+    </div>
+   <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578364439244860/7.png" alt="Seventh slide">
+    </div>
+   <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.discordapp.com/attachments/875515865540472842/997578364946759760/8.png" alt="Eight slide">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselNiko" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselInsaniam" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselNiko" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselInsaniam" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
--->
+
 
 ## Graphics Design
 
