@@ -165,7 +165,11 @@ Responsibilities:
  - Design a good user experience for the graphical user interfaces
 
 {% capture carousel_images %}
-https://cdn.discordapp.com/attachments/933007320735154186/963142865654001704/unknown.png
+https://cdn.discordapp.com/attachments/875515865540472842/997572072446374008/Gameplayv2.png
+https://cdn.discordapp.com/attachments/875515865540472842/997572072777711686/Screen1_Arcadev2.png
+https://cdn.discordapp.com/attachments/875515865540472842/997572073079721994/Screen2_Arcade.png
+https://cdn.discordapp.com/attachments/875515865540472842/997572073423638538/Screen3_Arcade.png
+https://cdn.discordapp.com/attachments/875515865540472842/997572168542060554/InputIconShowcase.jpg
 {% endcapture %}
 {% include elements/carousel.html %}
 
