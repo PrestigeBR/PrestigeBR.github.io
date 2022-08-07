@@ -189,6 +189,7 @@ https://cdn.discordapp.com/attachments/875515865540472842/997572072446374008/Gam
 https://cdn.discordapp.com/attachments/875515865540472842/997572072777711686/Screen1_Arcadev2.png
 https://cdn.discordapp.com/attachments/875515865540472842/997572073079721994/Screen2_Arcade.png
 https://cdn.discordapp.com/attachments/875515865540472842/997572073423638538/Screen3_Arcade.png
+https://cdn.discordapp.com/attachments/875515865540472842/1005798793599537212/GoalUIv2.png
 https://cdn.discordapp.com/attachments/875515865540472842/997572168542060554/InputIconShowcase.jpg
 {% endcapture %}
 {% include elements/carousel.html %}
