@@ -36,7 +36,7 @@ My responsibilities are including but not limited to:
 
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/960647585905922158/ss_8f04f1c2b1e1c6c718111b88826280e3f2d83ce3.600x338.png" caption="Main Menu User Interface" %}
 
-Want to learn more? Check out the:
+Want to learn more? Check out the Steam Page:
 
 <p class="text-center">
 {% include elements/button.html link="http://boombears.com" text="Steam Page" %}
