@@ -41,4 +41,3 @@ Want to learn more? Check out the:
 <p class="text-center">
 {% include elements/button.html link="http://boombears.com" text="Steam Page" %}
 </p>
-
