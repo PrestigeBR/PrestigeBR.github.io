@@ -40,7 +40,7 @@ Run latent actions in Blueprint without the need for c++, this is only intended 
 
 ## Other nodes
 
-This plugin overall has 45+ nodes. For a full list of nodes view the [documentation](https://utils.hideout.no/).
+This plugin overall has 45+ nodes. For a full list of nodes view the [documentation](https://utils.hideout.no/) (currently unfinished / wip).
 
 Some of the included nodes:
 
