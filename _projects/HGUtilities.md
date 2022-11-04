@@ -47,4 +47,3 @@ Some of the included nodes:
 {% include elements/figure.html image="https://cdn.discordapp.com/attachments/959186212046909551/964283755579723866/unknown.png" caption="Node Showcase" %}
 
 View the [repository](https://github.com/PrestigeBR/HGUtilNodes).
-
