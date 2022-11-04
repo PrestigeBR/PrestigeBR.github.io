@@ -10,7 +10,6 @@ weight: 3
 ![AboutMe](https://cdn.discordapp.com/attachments/959186212046909551/963134007741124638/AboutMe2.png "About Me")
 
 
-
 ### Skills
 
 ![Unreal Engine](https://cdn.discordapp.com/attachments/959186212046909551/962413534262730782/UE_SkillShowcase.png "Unreal Engine")
