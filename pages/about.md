@@ -5,9 +5,13 @@ permalink: /about/
 weight: 3
 ---
 
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 # **About Me**
 
 ![AboutMe](https://cdn.discordapp.com/attachments/959186212046909551/963134007741124638/AboutMe2.png "About Me")
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="andré-valand-84aa3a255" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://se.linkedin.com/in/andr%C3%A9-valand-84aa3a255?trk=profile-badge">André Valand</a></div>
 
 ### Skills
 
