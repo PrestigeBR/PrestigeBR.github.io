@@ -7,7 +7,22 @@ description: This is a simple AI State/Task machine system and an accompanying n
 
 # AINodeGraph
 
--intro
+During school we had an assignment for an on-going project which was "Pick your own feature". During this I had the idea of implementing an AI runtime scripting feature. In it's current state it's more of a proof of concept than anything but it is fully functional.
+
+My AIBrain / Task Machine works by having a manager which is the "AIBrain" which your AI would inherit from. This class keeps track of, initialized and cleans up any AITask.
+
+The AITask is a base class setup with an overridable function, you would inherit from AITask in your custom Task class and override the OnExecuteTask() function. This function has to return True or False, this is for implementation. It can mean various different things depending on what your task is.
+An example is my LookForPlayer task, if the AI can see the player it returns true, if not then it returns false. Every task will execute it-self every tick/frame so it needs to run tick-logic.
+
+The reason for this structure is so that code can be set-up in a similar manner to how you would use something like ImGui.
+
+The NodeGraph works by having NodeGraphObjects (inspired by the K2 nodes in Unreal Engine) which has a lot of virtual functions, this is where you implement all of your nodes functionality and the NodeGraph just calls back to these functions.
+
+The NodeGraphObject is set-up like a linked list that can expand infinitely in every direction (using std::vector) where this list is then used for executing logic during runtime.
+
+Here is an example of the Node Graph:
+
+[Gif](https://cdn.discordapp.com/attachments/875515865540472842/1040638946331349053/Animation.gif)
   
 Repository: [AINodeGraph](https://github.com/PrestigeBR/AINodeGraph)
   
