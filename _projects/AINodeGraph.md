@@ -63,3 +63,5 @@ Now you'll see the NodeGraph.
 If you want to create new nodes, look at AINodeObject class. It has virtual functions that you have to override to give it functionality. Check "AINode_Task", "AINode_Sequence" or "AINode_Start" for reference.
 
 The last step is to modify AINodeGraph.cpp' "NODE SPAWN BUTTONS" section to make an ImGui button to spawn your node.
+
+Repository: [AINodeGraph](https://github.com/PrestigeBR/AINodeGraph)
