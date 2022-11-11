@@ -1,5 +1,5 @@
 ---
-name: 1. Boom Bears on Stream
+name: Boom Bears on Stream
 tools: [Released Game, Commercial, Unreal Engine, Solo Indie]
 image: https://cdn.cloudflare.steamstatic.com/steam/apps/1878970/header.jpg
 description: Boom Bears is a cute & fun Stream game for Twitch Chat! "Let your viewers fight it out on stream." with the intention of being a content creation tool for live streamers to play games with their chat.
