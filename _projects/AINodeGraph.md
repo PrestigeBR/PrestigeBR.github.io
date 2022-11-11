@@ -22,7 +22,7 @@ The NodeGraphObject is set-up like a linked list that can expand infinitely in e
 
 Here is an example of the Node Graph:
 
-[Gif](https://cdn.discordapp.com/attachments/875515865540472842/1040638946331349053/Animation.gif)
+![gif](https://cdn.discordapp.com/attachments/875515865540472842/1040638946331349053/Animation.gif)
   
 Repository: [AINodeGraph](https://github.com/PrestigeBR/AINodeGraph)
   
