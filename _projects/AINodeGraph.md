@@ -7,7 +7,7 @@ description: This is a simple AI State/Task machine system and an accompanying n
 
 # AINodeGraph
 
-During school we had an assignment for an on-going project which was "Pick your own feature". During this I had the idea of implementing an AI runtime scripting feature. In it's current state it's more of a proof of concept than anything but it is fully functional.
+During school we had an assignment for an on-going project which was "Pick your own feature". During this I had the idea of implementing an AI runtime scripting feature. In it's current state it's more of a proof of concept than anything but it is fully functional and was developed over roughly 3 days.
 
 My AIBrain / Task Machine works by having a manager which is the "AIBrain" which your AI would inherit from. This class keeps track of, initialized and cleans up any AITask.
 
